@@ -1,9 +1,19 @@
-body {background-color:#F8FCFF;}
+head{
+font-family: 'Quicksand', sans-serif;
 
+}
 
-
+.navbar {
+}
+.categories li  {
+    display: inline;
+    float: left;
+    text-decoration: none;
+    padding: 0.2em 1em;
+}
 .content {
     width: 800px;
+    float: none;
     font-family: 'Quicksand', sans-serif;
     height: auto;
     border-radius: 2px 2px 2px 2px;
