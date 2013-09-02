@@ -10,14 +10,19 @@ head{
     display: inline;
     float: left;	
     text-decoration: none;
-    margin-left: 190px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    
+    margin-top:5%;
+    margin-left:16%;
+    position:relative;
+}
+img{
+	clear: left;
+	position:absolute;
+	margin-left:44%;
 }
 
 .content {
     width: 800px;
+    margin-top:20%;
     clear: left;
     font-family: 'Quicksand', sans-serif;
     height: auto;
