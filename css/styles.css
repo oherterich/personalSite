@@ -38,50 +38,12 @@ head{
   	color:#ffa3a3;
 }
 
-.categories li  {
-    display: inline;
-    float: left;	
-    text-decoration: none;
-    margin-top:5%;
-    margin-left:16%;
-    position:relative;
-}
 
 img{
 	clear: left;
 	position:absolute;
 	margin-left:44%;
 	margin-top:-1%;
-}
-
-.boxLine1 li {
-    display: inline; 
-    float:left;
-    padding: 10px 10px 10px;
-    width: 210px;
-    height: 210px;
-    margin: 10px 10px 10px;
-    text-align: left;
-    border-color: rgb(204, 204, 204);
-	border-width: 1px;
-	border-style: dashed;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-}
-
-.boxLine2 li {
-    display: inline; 
-    float:left;
-    padding: 10px 10px 10px;
-    width: 210px;
-    height: 210px;
-    margin: 10px 10px 10px;
-    text-align: left;
-    border-color: rgb(204, 204, 204);
-	border-width: 1px;
-	border-style: dashed;
-    cursor: pointer;
-    color: rgb(0, 0, 0);
 }
 
 footer {
