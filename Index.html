@@ -14,71 +14,106 @@
     <link rel="stylesheet" type="text/css" href="css/lemonade.css">
   	<link rel="stylesheet" type="text/css" href="css/styles.css">
   	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  	<link rel="icon" href="logoPersonal" type="image/png">
   	
+  	<!--Adding jQuery script-->
+  	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+	</script>
+
   	<!--Top navigation Bar-->
   	<div class="navBar">
   	
-  	<img src="logoPersonal.png" alt="Logo" width="150" height="120">
-  	
   	<ul class="navList">
-  		<li>
-  			<a href="Portfolio.html">Portfolio</a> 
+  		<li id="portfolio">
+  			<a href="Portfolio.html">portfolio</a> 
   		</li>
-  		<li>
-  			<a href="About.html">About</a>   
+  		<li id="about">
+  			<a href="About.html">about</a>   
  		</li>
-   		<li>
-  			<a href="http://sussesonderby.tumblr.com/">Blog</a> 
+ 		<li id="home">
+ 			<a href="index.html"><img src="logoPersonal.png" alt="Logo" width="150" height="120"></a>
+ 		</li>
+   		<li id="Blog">
+  			<a href="http://sussesonderby.tumblr.com/">blog</a> 
   		</li>
-   		<li>
-  			<a href="Thesis.html">Thesis</a>
+   		<li id="thesis">
+  			<a href="Thesis.html">thesis</a>
   		</li>
   	</ul>
   
 	</div>
 	
+	<!--script-->
+	<script>
+	$(document).ready(function(){
+  		$("#about").hover(function(){
+    		$(".boxAbout").show();
+    		$(".boxPortfolio").hide();
+    		$(".boxThesis").hide();
+    		
+  		});
+  		$("#thesis").hover(function(){
+    		$(".boxThesis").show();
+    		$(".boxPortfolio").hide();
+    		$(".boxAbout").hide();
+    		
+  		});
+  		$("#home").hover(function(){
+    		$(".boxThesis").show();
+    		$(".boxPortfolio").show();
+    		$(".boxAbout").show();
+    		
+  		});
+  		$("#portfolio").hover(function(){
+    		$(".boxPortfolio").show();
+    		$(".box").show();
+    		$(".boxThesis").hide();
+    		$(".boxAbout").hide();
+    		
+  		});
+	});
+	</script>
 </head>	
 
 <body>
 	<div class="frame">
-	
-  		<p></p>
   
   	<!--1st line-->
+  		
   		<div class="bit-3">
-            <div class="box">Bio</div>
+            <div class="boxAbout">Bio</div>
     		</div>
     	<div class="bit-3">
-            <div class="box">Blogpost</div>
+            <div class="boxAbout">Blogpost</div>
     		</div>
     	<div class="bit-3">
-            <div class="box">Thesis</div>
-    		</div>
+            <div class="boxThesis">Thesis</div>
+            </div>
   
  	<!--2nd line-->
     	<div class="bit-4">
-            <div class="box">Portfolio Piece</div>
+            <div class="boxPortfolio">Portfolio Piece</div>
             </div>
         <div class="bit-4">
-            <div class="box">projectThis</div>
+            <div class="boxThesis">projectThis</div>
             </div>
         <div class="bit-4">
-            <div class="box">ProjectThat</div>
+            <div class="boxAbout">ProjectThat</div>
             </div>
         <div class="bit-4">
-            <div class="box">Project Then</div>
+            <div class="boxPortfolio">Project Then</div>
             </div>
     
     <!--3rd line-->
     	<div class="bit-3">
-            <div class="box">Bio</div>
+            <div class="boxAbout">Bio</div>
     		</div>
     	<div class="bit-3">
-            <div class="box">Blogpost</div>
+            <div class="boxPortfolio">Blogpost</div>
     		</div>
     	<div class="bit-3">
-            <div class="box">Thesis</div>
-    		</div>     
+            <div class="boxThesis">Thesis</div>		
+    	</div>     
   
 </body>
 	</div>

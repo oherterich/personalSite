@@ -20,18 +20,23 @@ ul {
 li {
   height: 25px;
   float: left;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-top: 10%;
-  margin-right: 1%;
-  padding: 0% 9% 0%;
+  margin-left: 12%;
+  padding: 0% 1% 0%;
+}
+
+img{
+	clear: left;
+	position:absolute;
+	margin-left:-4%;
+	margin-top:-5%;
 }
 
 a {
 	color:#6E6E6E;
 	text-decoration:none;
 }
-
-
 
 .frame {
   	width: 95%;
@@ -56,12 +61,55 @@ a {
   	color:#ffa3a3;
 }
 
+.boxAbout {
+  	text-align: center;
+  	font-family: 1em 'Quicksand', sans-serif;
+  	background:#E80C7A;
+  	color:#E80C7A;
+  	height: 210px;
+  	padding: 13px 0px 15px 0px;
+	border-color: rgb(204, 204, 204);
+	border-width: 1px;
+	border-style: dashed;
+    cursor: pointer;
+}
 
-img{
-	clear: left;
-	position:absolute;
-	margin-left:44%;
-	margin-top:5%;
+.boxAbout:hover {
+  	color:#fff;
+}
+
+.boxThesis {
+  	text-align: center;
+  	font-family: 1em 'Quicksand', sans-serif;
+  	background:#35729E;
+  	color:#35729E;
+  	height: 210px;
+  	padding: 13px 0px 15px 0px;
+	border-color: rgb(204, 204, 204);
+	border-width: 1px;
+	border-style: dashed;
+    cursor: pointer;
+}
+
+.boxThesis:hover {
+  	color:#fff;
+}
+
+.boxPortfolio {
+  	text-align: center;
+  	font-family: 1em 'Quicksand', sans-serif;
+  	background:#707070;
+  	color:#707070;
+  	height: 210px;
+  	padding: 13px 0px 15px 0px;
+	border-color: rgb(204, 204, 204);
+	border-width: 1px;
+	border-style: dashed;
+    cursor: pointer;
+}
+
+.boxPortfolio:hover {
+  	color:#fff;
 }
 
 footer {
