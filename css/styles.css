@@ -1,9 +1,16 @@
 body{
 	background: #fff;
+    background-image: url("../cage.jpg");
+    background-repeat: repeat;
+
 }
 
 head{
 	font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  height: 200px;
 }
 
 .navBar {
